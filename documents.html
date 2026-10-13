@@ -50,6 +50,22 @@
     <div class="status-tag status-pending" id="license-status">Pending</div>
   </div>
 </section>
+    <div class="doc-card" data-doc="idproof">
+    <div class="doc-card-head">
+      <span class="doc-icon">🆔</span>
+      <div>
+        <h3>ID Proof</h3>
+        <p>PAN, Passport or Voter ID · PDF, JPG, PNG (max 5MB)</p>
+      </div>
+    </div>
+    <label class="upload-btn">
+      Choose File
+      <input type="file" class="doc-input" accept=".pdf,.jpg,.jpeg,.png" data-type="idproof" hidden>
+    </label>
+    <p class="file-name" id="idproof-filename">No file selected</p>
+    <p class="upload-error" id="idproof-error"></p>
+    <div class="status-tag status-pending" id="idproof-status">Pending</div>
+  </div>
 </main>
 <script src="js/main.js"></script>
 </body>
